@@ -4,25 +4,15 @@ baseurl:
 # Site settings
 title: Ireland Magic Words
 email: ireland.magicwords@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Happiness is important in our lives and it makes us feel better. We can celebrate happiness by inspiring others to spread love, positivity and encouraging them to do things they like. Together, we can make the world a better place. "
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
 
-- name: Larry Parker
+- name: Su
   pic: 2
-  position: Lead Marketer
+  position: Magic Words Guru
   social:
     - title: twitter
       url: #
@@ -31,25 +21,14 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/
+    url: https://twitter.com/IrelandWords1
   - title: facebook
-    url:
+    url: https://www.facebook.com/Irelandwordsshirley
   - title: instagram
-    url: 
+    url: https://www.instagram.com/irelandmagicwords/
 
 # Postal address (add as many lines as necessary)
 address:
