@@ -353,6 +353,11 @@ blockquote {
     margin-bottom: 1.5rem;
 }
 
+.hero-image {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
 .share {
     text-align: center;
 }
@@ -392,6 +397,14 @@ blockquote {
 @media (min-width:1024px) {
     .share ul li {
         display: block;
+    }
+
+    .hero-image {
+        display: block;
+        margin-bottom: 1.5rem;
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -469,6 +482,10 @@ blockquote {
 @media (max-width:767px) {
     .post-top-meta.authorpage {
         text-align: center;
+    }
+
+    h1.sitetitle {
+        font-size: 2.0em;
     }
 }
 
