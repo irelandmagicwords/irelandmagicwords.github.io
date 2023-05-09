@@ -1,9 +1,9 @@
 # Site
 name: "Ireland Magic Words"
 title: "Ireland Magic Words"
-description: "Spreading Magic and Love"
+description: "Happiness is important in our lives and it makes us feel better. We can celebrate happiness by inspiring others to spread love, positivity and encouraging them to do things they like. Together, we can make the world a better place."
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: 
 google_analytics: 'UA-46278016-1'
 disqus: 
