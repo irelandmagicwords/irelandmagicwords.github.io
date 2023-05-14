@@ -11,6 +11,15 @@ mailchimp-list:
 include: ["_pages"]
 permalink: /:title/
 
+collections:
+  products:
+    permalink: "/:collection/:name/"
+    output: true
+  posts:
+    permalink: "/:collection/:year/:month/:day/:title/"
+    output: true
+
+
 # Plugins
 plugins:
   - jekyll-paginate
@@ -40,6 +49,9 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
+
+# Snipcart
+snipcartid: "OTc4MTliNjItOTM5ZS00NTQ3LTkzNmUtNWFlNzNiNDkwMDYyNjM4MTk2ODI2NzExMjc0Nzk4"
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
