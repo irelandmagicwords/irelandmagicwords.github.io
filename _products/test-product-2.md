@@ -1,12 +1,13 @@
 ---
+layout: product
 identifier: product-id-2
 name: Test Product 2
 featured: false
 description: "Test test test test test test test test test test test test test test test test test test test."
 price: 19.99
 image: /assets/images/concept.jpg
-categories: [ Product, Card ]
-tags: [drink, happy]
+categories: card 
+tags: drink
 image: assets/images/5.jpg
 ---
 A thought conceived in the mind and organised around a main theme of your choice. Now on sale for a limited time.
