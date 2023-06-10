@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Get some magic for yourself!
+title: Get some magic for yourself
 permalink: /shop
 comments: false
 ---
