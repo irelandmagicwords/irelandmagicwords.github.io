@@ -14,7 +14,7 @@ comments: false
 
         {% for post in site.products %}
 
-        {% include postbox.html %}
+        {% include prodbox.html %}
 
         {% endfor %}
 
