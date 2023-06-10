@@ -1,6 +1,7 @@
 ---
 identifier: product-id-1
 name: Test Product 1
+featured: true
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 price: 9.99
 image: /assets/images/concept.jpg

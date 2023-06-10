@@ -5,32 +5,33 @@ title: Home
 
 {% if page.url == "/" %}
 
-<section class="landing-page-image">
-    <img class="hero-image img-fluid" src="{{ site.baseurl }}/assets/images/hero_image.jpg" alt="{{ site.name }}">
-</section>
+    <section class="landing-page-image">
+        <img class="hero-image img-fluid" src="{{ site.baseurl }}/assets/images/hero_image.jpg" alt="{{ site.name }}">
+    </section>
 
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
-    <div class="section-title">
-        <h2 id="shop-featured"><span>Featured Products</span></h2>
-    </div>
-    <div class="row">
+    <!-- Featured
+    ================================================== -->
+    <section class="featured-posts">
+        <div class="section-title">
+            <h2 id="shop-featured"><span>Featured Products</span></h2>
+        </div>
+        <div class="row">
 
-    {% for post in site.posts %}
+        {% for post in site.products %}
 
-        {% if post.featured == true %}
+            {% if post.featured == true %}
 
-            {% include featuredbox.html %}
+                {% include featuredbox.html %}
 
-        {% endif %}
+            {% endif %}
 
-    {% endfor %}
+        {% endfor %}
 
-    </div>
-</section>
+        </div>
+    </section>
 
 {% endif %}
+
 
 <!-- Posts Index
 ================================================== -->
