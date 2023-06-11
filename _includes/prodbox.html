@@ -23,7 +23,17 @@
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
-                
+                <div class="button-section-right">
+                    <button
+                        class="buy-button snipcart-add-item btn btn-dark"
+                        data-item-id="{{ post.identifier }}"
+                        data-item-name="{{ post.name }}"
+                        data-item-price="{{ post.price }}"
+                        data-item-image="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}"
+                        data-item-description="{{ post.content | remove: '<p>' | remove: '</p>' }}">
+                        Add to cart ({{ post.price }}€)
+                    </button>
+                </div>
                 <div class="clearfix"></div>
             </div>
         </div>
