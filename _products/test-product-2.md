@@ -5,7 +5,6 @@ name: Test Product 2
 featured: false
 description: "Test test test test test test test test test test test test test test test test test test test."
 price: 19.99
-image: /assets/images/concept.jpg
 categories: card 
 tags: drink
 image: assets/images/5.jpg

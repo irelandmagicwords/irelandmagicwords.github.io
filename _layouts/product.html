@@ -3,7 +3,6 @@ layout: default_prd
 disqus: false
 archive: false
 post_class: post-template
-exclude_categories: true
 ---
 
 <!-- Begin Article
@@ -40,6 +39,22 @@ exclude_categories: true
             
                         <!-- Post Title -->
                         <h1 class="posttitle">{{ page.title }}</h1>
+
+                        <div class="article-post">
+                            {{ page.description }}
+                        </div>
+
+                        <div class="button-section-right">
+                            <button
+                                class="buy-button snipcart-add-item btn btn-warning"
+                                data-item-id="{{ page.identifier }}"
+                                data-item-name="{{ page.name }}"
+                                data-item-price="{{ page.price }}"
+                                data-item-image="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
+                                data-item-description="{{ page.content | remove: '<p>' | remove: '</p>' }}">
+                                Add to cart ({{ page.price }}€)
+                            </button>
+                        </div>
             
                     </div>
                 </div>

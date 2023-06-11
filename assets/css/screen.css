@@ -361,6 +361,7 @@ blockquote {
 
 .share {
     text-align: center;
+    z-index: -1;
 }
 
 .share p {
@@ -922,8 +923,14 @@ iframe {
     border-top-style: ridge;
 }
 
-.button-section {
+.button-section-center {
     width: fit-content;
     margin-right: auto;
+    margin-left: auto;
+}
+
+.button-section-right {
+    width: fit-content;
+    margin-right: 0;
     margin-left: auto;
 }
