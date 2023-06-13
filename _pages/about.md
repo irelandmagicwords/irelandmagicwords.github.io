@@ -26,9 +26,12 @@ comments: true
 <div class="sticky-top sticky-top-80">
 <h5>Buy me a coffee</h5>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+<p class="text">I hope you appreciate the kindness cards I've been spreading on the street! If you'd like to help me continue creating new free cards, please consider showing your appreciation by buying me a coffee. I'm truly grateful for your support, and I'm committed to keep spreading love and kindness wherever I go.
+</p>
 
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+<p class="text">Any contribution, no matter how big or small, is always greatly appreciated.</p>
+
+<a target="_blank" href="https://bmc.link/irelandmagicwrd" class="btn btn-success">Buy me a coffee</a> 
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_prd
 title: Get some magic for yourself
 permalink: /shop
 comments: false
