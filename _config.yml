@@ -5,7 +5,7 @@ description: "Happiness is important in our lives and it makes us feel better. W
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
-google_analytics: 'UA-NUMBER'
+google_analytics: 'G-E6Z4CMPQZR'
 disqus: 
 mailchimp-list: 
 include: ["_pages"]
