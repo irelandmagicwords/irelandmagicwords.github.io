@@ -11,6 +11,7 @@ title: Home
 
     <!-- Featured
     ================================================== -->
+    {% if site.shopenabled == true %}  
     <section class="featured-posts">
         <div class="section-title">
             <h2 id="shop-featured"><span>Featured Products</span></h2>
@@ -33,6 +34,7 @@ title: Home
             <a class="ml-1 mr-1" href="{{ site.baseurl }}/shop.html" >View All Products</a>
         </div>
     </section>
+    {% endif %}
 
 {% endif %}
 

@@ -76,15 +76,18 @@
                 {% endif %}
                     <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
+                {% if site.shopenabled == true %} 
                 <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}/shop.html">Shop</a>
                 </li>
+                {% endif %}
                 <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                 </li>
 
                 {% include search-lunr.html %}
 
+                {% if site.shopenabled == true %} 
                 <li class="nav-item">
                     <a href="#" class="snipcart-checkout">
                         <div class="snipcart-summary">
@@ -93,6 +96,7 @@
                         </div>
                     </a>
                 </li>
+                {% endif %}
 
             </ul>
 
