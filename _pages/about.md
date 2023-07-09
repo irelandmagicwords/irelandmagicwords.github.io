@@ -1,23 +1,17 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About Su
 permalink: /about
-comments: true
+comments: false
 ---
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+<p>My name is Susana (Su) and I welcome you to my world of kindness.  In 2021 I've decided to start spreading love and kindness throughout Ireland, filling the streets with love and making people smile with my positivity cards. A few nice words or a random act of kindness, no matter how big or small, can make a difference to someone else’s life. I believe together we can make the world a better place, and spreading love and kindness seems a good way to go about it, while also inspiring others to do the same. The world needs more kindness and love, and your actions matter. You can make the difference!</p>
 
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
-
-<h4>Questions or bug reports?</h4>
-
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
 
 </div>
 
