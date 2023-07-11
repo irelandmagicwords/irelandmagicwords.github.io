@@ -7,10 +7,10 @@ comments: false
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
-
+ 
 <p>My name is Susana (Su) and I welcome you to my world of kindness.  In 2021 I've decided to start spreading love and kindness throughout Ireland, filling the streets with love and making people smile with my positivity cards. A few nice words or a random act of kindness, no matter how big or small, can make a difference to someone else’s life. I believe together we can make the world a better place, and spreading love and kindness seems a good way to go about it, while also inspiring others to do the same. The world needs more kindness and love, and your actions matter. You can make the difference!</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
+<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/about1.jpg" alt="Su spreading love!" /></p>
 
 
 </div>
