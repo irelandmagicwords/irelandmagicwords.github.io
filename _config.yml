@@ -20,6 +20,14 @@ collections:
     permalink: "/:collection/:year/:month/:day/:title/"
     output: true
 
+authors:
+  su: 
+    name: "Susana Madruga"
+    avatar: 'assets/images/su_circle.png'
+    display_name: "Su"
+    web: https://www.sumadruga.com/
+  
+    
 
 # Plugins
 plugins:
