@@ -7,6 +7,6 @@ description: "Test test test test test test test test test test test test test t
 price: 19.99
 categories: card 
 tags: drink
-image: assets/images/5.jpg
+image: assets/images/post2.jpg
 ---
 A thought conceived in the mind and organised around a main theme of your choice. Now on sale for a limited time.
