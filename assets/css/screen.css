@@ -949,14 +949,15 @@ iframe {
 
 /* Social networks */
 
-ul.list-inline {
+/*ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
-}
+}*/
 
 ul.social-buttons {
     margin-bottom: 0;
 }
+
 
 ul.social-buttons li a {
     display: block;

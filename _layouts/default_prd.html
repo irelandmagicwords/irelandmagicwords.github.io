@@ -152,10 +152,18 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+            <div class="col-md-4 col-sm-4 text-center text-lg-left">
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+            <div class="col-md-4 text-center">
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li class="list-inline-item"><a target="_blank" href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4 text-center text-lg-right">    
                 Made with <i class="fas fa-heart"></i> by Ireland Magic Words!
             </div>
         </div>

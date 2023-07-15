@@ -18,15 +18,21 @@ comments: false
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-<h5>Check our social networks</h5>
 
-<ul class="list-inline social-buttons">
-    {% for network in site.social %}
-    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-    </li>
-    {% endfor %}
-</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <ul class="list-inline social-buttons">
+                {% for network in site.social %}
+                    <li class="list-inline-item"><a target="_blank" href="{{ network.url }}"><i class="fa-brands fa-{{ network.title }}"></i></a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
 
+<hr>
 
 <h5>Buy me a coffee</h5>
 
