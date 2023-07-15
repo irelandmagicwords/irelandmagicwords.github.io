@@ -18,6 +18,16 @@ comments: false
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
+<h5>Check our social networks</h5>
+
+<ul class="list-inline social-buttons">
+    {% for network in site.social %}
+    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+    </li>
+    {% endfor %}
+</ul>
+
+
 <h5>Buy me a coffee</h5>
 
 <p class="text">I hope you appreciate the kindness cards I've been spreading on the street! If you'd like to help me continue creating new free cards, please consider showing your appreciation by buying me a coffee. I'm truly grateful for your support, and I'm committed to keep spreading love and kindness wherever I go.

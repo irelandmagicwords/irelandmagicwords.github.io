@@ -946,3 +946,35 @@ iframe {
     text-align: justify;
     text-justify: inter-word;
 }
+
+/* Social networks */
+
+ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.44);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #00ab6b;
+}

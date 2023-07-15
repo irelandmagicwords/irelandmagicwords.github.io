@@ -27,6 +27,14 @@ authors:
     display_name: "Su"
     web: https://www.sumadruga.com/
   
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/IrelandWords1
+  - title: facebook
+    url: https://www.facebook.com/Irelandwordsshirley
+  - title: instagram
+    url: https://www.instagram.com/irelandmagicwords/
     
 
 # Plugins
